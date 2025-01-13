@@ -49,7 +49,7 @@ export default function Home() {
           company="Cognitive3D"
           url="https://cognitive3d.com/"
           timeline="Jan 2025 - Present"
-          firstDescription="Developing VR applications for the Meta Quest, HTC Vive, and Pico headsets
+          firstDescription="Developing VR applications for Meta Quest, HTC Vive, and Pico headsets
         in Unity and C# to showcase the analytic features of Cognitive3D&apos;s SDK."
           secondDescription="Implementing CI/CD pipelines with GitHub Actions and Codacy to
         streamline development and deployment processes."
