@@ -23,7 +23,7 @@ export default function Home() {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="mailto:rafaelp@student.ubc.ca"
+            href="mailto:parkrafael11@gmail.com"
             className="cursor-pointer hover:text-orange-500 transition-transform transform hover:scale-110"
             aria-label="GitHub"
           >
