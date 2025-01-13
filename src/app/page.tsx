@@ -42,7 +42,7 @@ export default function Home() {
       </p>
 
       {/* ----- Work Experience ----- */}
-      <p className="font-medium text-lg mb-[24px]">👨🏻‍💻 Work Experience</p>
+      <p className="font-medium text-lg mb-[24px]">💼 Work Experience</p>
       <div className="flex flex-col gap-[24px] mb-[56px]">
         <WorkBlock
           position="Software Engineer Co-op"
@@ -87,7 +87,7 @@ export default function Home() {
       </div>
 
       {/* ----- Projects ----- */}
-      <p className="font-medium text-lg mb-[24px]">🏗️ Projects</p>
+      <p className="font-medium text-lg mb-[24px]">🚀 Projects</p>
       <div className="flex flex-col mb-[56px]">
         <ProjectBlock
           title="Clinical Logging Software"
