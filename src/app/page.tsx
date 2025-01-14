@@ -36,9 +36,9 @@ export default function Home() {
       <p className="font-medium text-lg mb-[24px]">🐥 About Me</p>
       <p className="font-normal mb-[56px]">
         Hello! I&apos;m Rafael, a fifth-year Computer Science student at The
-        University of British Columbia. Currently, I&apos;m working at Cognitive3D as
-        a Software Engineer Co-op, working with their analytics platform that
-        measures human behavior in VR/AR simulations.
+        University of British Columbia. Currently, I&apos;m working at
+        Cognitive3D as a Software Engineer Co-op, working with their analytics
+        platform that measures human behavior in VR/AR simulations.
       </p>
 
       {/* ----- Work Experience ----- */}
@@ -50,7 +50,7 @@ export default function Home() {
           url="https://cognitive3d.com/"
           timeline="Jan 2025 - Present"
           firstDescription="Developing VR applications for Meta Quest, HTC Vive, and Pico headsets
-        in Unity and C# to showcase the analytic features of Cognitive3D&apos;s SDK."
+        in Unity and C# to showcase the analytic features of Cognitive3D's SDK."
           secondDescription="Implementing CI/CD pipelines with GitHub Actions and Codacy to
         streamline development and deployment processes."
         />
@@ -73,7 +73,16 @@ export default function Home() {
       <p className="font-medium text-lg mb-[24px]">
         🌱 Extracurricular Activities
       </p>
-      <div className="flex flex-col mb-[56px]">
+      <div className="flex flex-col gap-[24px] mb-[56px]">
+        <WorkBlock
+          position="Software Developer"
+          company="UBC Emerging Media Labs"
+          url="https://eml.ubc.ca"
+          timeline="Nov 2024 - Present"
+          firstDescription="Collaborating as part of a 6-person cross-functional team to develop a VR studio in Unreal Engine, enabling artists to
+perform and record with virtual instruments in realistic and hard-to-replicate acoustic environments such as caves
+and forests."
+        />
         <WorkBlock
           position="Software Developer"
           company="UBC Launch Pad"
@@ -93,7 +102,7 @@ export default function Home() {
           title="Clinical Logging Software"
           url="https://github.com/ubclaunchpad/clinical-logging"
           firstDescription="Developing a web application to scan, digitize, and store information
-          from handwritten clinical records from FlowLeaflet&apos;s clinical
+          from handwritten clinical records from FlowLeaflet's clinical
           logbooks."
           secondDescription="Building a RESTful API with Express.js to store and retrieve
           data from Supabase, ensuring secure and efficient access to user
